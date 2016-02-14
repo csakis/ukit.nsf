@@ -13,16 +13,36 @@
         <in-palette>true</in-palette>
         <render-markup>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&#xd;
 &lt;xp:view xmlns:xp="http://www.ibm.com/xsp/core"&gt;&#xd;
-  &lt;xp:label&#xd;
-    value="something"&#xd;
-    id="label1"&gt;&#xd;
-  &lt;/xp:label&gt;&#xd;
+ &lt;xp:panel style="border-color:rgb(100,100,100);border-style:solid;border-width:1px;"&gt;&#xd;
+&lt;h3&gt;Grid&lt;/h3&gt;&#xd;
+Even Grid = &lt;%=this.isEvenGrid %&gt;&#xd;
+&lt;xp:br&gt;&lt;/xp:br&gt;&#xd;
+Responsive Grid = &lt;%=this.isResponsive %&gt;&#xd;
+&lt;xp:br&gt;&lt;/xp:br&gt;&#xd;
+Grid Width = &lt;%=this.ukGridWidth %&gt;&#xd;
+&lt;xp:br&gt;&lt;/xp:br&gt;&#xd;
+Grid Width Small= &lt;%=this.ukGridWidthSmall %&gt;&#xd;
+&lt;xp:br&gt;&lt;/xp:br&gt;&#xd;
+Grid Width Medium= &lt;%=this.ukGridWidthMedium %&gt;&#xd;
+&lt;xp:br&gt;&lt;/xp:br&gt;&#xd;
+Grid Width Large= &lt;%=this.ukGridWidthLarge %&gt;&#xd;
+&lt;xp:br&gt;&lt;/xp:br&gt;&#xd;
+Grid Width Extra Large= &lt;%=this.ukGridWidthXLarge %&gt;&#xd;
+&lt;xp:br&gt;&lt;/xp:br&gt;&#xd;
+Gutter = &lt;%=this.gutter %&gt;&#xd;
+&lt;xp:br&gt;&lt;/xp:br&gt;&#xd;
+match Height = &lt;%=this.matchHeight %&gt;&#xd;
+&lt;xp:br&gt;&lt;/xp:br&gt;&#xd;
+Row Break = &lt;%=this.rowBreak %&gt;&#xd;
+&lt;xp:br&gt;&lt;/xp:br&gt;&#xd;
 &lt;xp:callback /&gt;&#xd;
+  &lt;/xp:panel&gt;&#xd;
+&#xd;
   &lt;/xp:view&gt;</render-markup>
       </designer-extension>
     </composite-extension>
     <property>
-      <property-name>evenGrid</property-name>
+      <property-name>isEvenGrid</property-name>
       <property-class>boolean</property-class>
       <display-name>EvenGrid</display-name>
       <property-extension>
