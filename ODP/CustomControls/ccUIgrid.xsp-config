@@ -17,6 +17,7 @@
     value="something"&#xd;
     id="label1"&gt;&#xd;
   &lt;/xp:label&gt;&#xd;
+&lt;xp:callback /&gt;&#xd;
   &lt;/xp:view&gt;</render-markup>
       </designer-extension>
     </composite-extension>
