@@ -66,10 +66,9 @@
    <xp:button
      value="Warning"
      id="button3"
-     styleClass="uk-button uk-button-warning"
+     styleClass="uk-button uk-alert-warning"
    >
    </xp:button>
-   
    &#160;
    <xp:button
      value="Danger"

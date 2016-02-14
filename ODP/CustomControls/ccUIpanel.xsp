@@ -20,6 +20,14 @@
       href="accordion.min.css"
       loaded='${javascript:return (context.getProperty("xsp.theme").indexOf("uikit")==0)}'>
     </xp:styleSheet>
+    <xp:styleSheet
+      href="accordion-moreno-dark.css"
+      loaded='${javascript:return (context.getProperty("xsp.theme").indexOf("moreno-dark")==0)}'>
+    </xp:styleSheet>
+     <xp:styleSheet
+      href="accordion.min.css"
+      loaded='${javascript:return (context.getProperty("xsp.theme").indexOf("moreno-light")==0)}'>
+    </xp:styleSheet>
   </xp:this.resources>
   <xp:div> <!--accordionContainer-->
     <xp:this.attrs>
