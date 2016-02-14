@@ -49,4 +49,31 @@
          </xp:div>
       </xp:div><!-- uk-grid-collapse -->
    </xp:div><!-- uk-container -->
-</xp:view>
+   <xp:button
+     value="Primary"
+     styleClass="uk-button uk-button-primary"
+   >
+   </xp:button>
+   
+   &#160;
+   <xp:button
+     value="Success"
+     id="button2"
+     styleClass="uk-button uk-button-success"
+   >
+   </xp:button>
+   &#160;
+   <xp:button
+     value="Warning"
+     id="button3"
+     styleClass="uk-button uk-button-warning"
+   >
+   </xp:button>
+   
+   &#160;
+   <xp:button
+     value="Danger"
+     id="button4"
+     styleClass="uk-button uk-button-danger"
+   >
+   </xp:button></xp:view>
