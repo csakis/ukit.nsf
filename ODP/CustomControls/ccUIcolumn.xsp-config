@@ -12,39 +12,21 @@
       <designer-extension>
         <in-palette>true</in-palette>
         <render-markup>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&#xd;
-&lt;xp:view xmlns:xp="http://www.ibm.com/xsp/core"&gt;&#xd;
-  &lt;xp:label&#xd;
-    value="something"&#xd;
-    id="label1"&gt;&#xd;
-  &lt;/xp:label&gt;&#xd;
+&lt;xp:view xmlns:xp="http://www.ibm.com/xsp/core"&gt;&lt;xp:panel style="border-color:rgb(50,50,50);border-style:solid;border-width:1px;"&gt;&#xd;
+&lt;h3&gt;Column&lt;/h3&gt;&#xd;
+Column Width = &lt;%=this.ukWidth %&gt;&#xd;
+&lt;xp:br&gt;&lt;/xp:br&gt;&#xd;
+Column Width Small= &lt;%=this.ukWidthSmall %&gt;&#xd;
+&lt;xp:br&gt;&lt;/xp:br&gt;&#xd;
+Column Width Medium= &lt;%=this.ukWidthMedium %&gt;&#xd;
+&lt;xp:br&gt;&lt;/xp:br&gt;&#xd;
+Column Width Large= &lt;%=this.ukWidthLarge %&gt;&#xd;
+&lt;xp:br&gt;&lt;/xp:br&gt;&#xd;
 &lt;xp:callback /&gt;&#xd;
+  &lt;/xp:panel&gt;&#xd;
   &lt;/xp:view&gt;</render-markup>
       </designer-extension>
     </composite-extension>
-    <property>
-      <property-name>isEvenGrid</property-name>
-      <property-class>boolean</property-class>
-      <display-name>isEvenGrid</display-name>
-      <property-extension>
-        <designer-extension>
-          <editor>com.ibm.std.BooleanCheckBox</editor>
-          <default-value>true</default-value>
-        </designer-extension>
-        <required>true</required>
-      </property-extension>
-      <description>check the box if the column is in an even grid </description>
-    </property>
-    <property>
-      <property-name>isReponsive</property-name>
-      <property-class>boolean</property-class>
-      <property-extension>
-        <designer-extension>
-          <visible>!isEvenGrid</visible>
-          <editor>com.ibm.std.BooleanCheckBox</editor>
-          <default-value>false</default-value>
-        </designer-extension>
-      </property-extension>
-    </property>
     <property>
       <property-name>ukWidth</property-name>
       <property-class>string</property-class>
