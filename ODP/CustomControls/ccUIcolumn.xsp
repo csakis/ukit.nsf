@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view
+  xmlns:xp="http://www.ibm.com/xsp/core">
+  <xp:panel
+    tagName="li">
+    <xp:this.styleClass><![CDATA[#{javascript:var gridStyle ="";
+if (compositeData.isEvenGrid) {
+	return gridStyle;
+	}
+if (!compositeData.isReponsive) {
+	gridStyle += "uk-width-" + compositeData.ukWidth;
+	}
+	else {
+	gridStyle += "uk-width-small-" + compositeData.ukWidthSmall;
+	gridStyle += " uk-width-medium-" + compositeData.ukWidthMedium;
+	gridStyle += " uk-width-large-" + compositeData.ukWidthLarge;
+	}
+return gridStyle;}]]></xp:this.styleClass>
+    <xp:callback
+      id="columnCallback"></xp:callback>
+  </xp:panel>
+</xp:view>

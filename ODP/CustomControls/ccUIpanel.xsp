@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view
+  xmlns:xp="http://www.ibm.com/xsp/core">
+  <xp:this.resources>
+    <xp:script
+      src="accordion.min.js"
+      clientSide="true"></xp:script>
+    <xp:styleSheet
+      href="panel.css">
+    </xp:styleSheet>
+    <xp:styleSheet
+      href="accordion.gradient.min.css"
+      loaded='${javascript:return (context.getProperty("xsp.theme").indexOf("gradient")!=-1)}'>
+    </xp:styleSheet>
+    <xp:styleSheet
+      href="accordion.almost-flat.min.css"
+      loaded='${javascript:return (context.getProperty("xsp.theme").indexOf("flat")!=-1)}'>
+    </xp:styleSheet>
+    <xp:styleSheet
+      href="accordion.min.css"
+      loaded='${javascript:return (context.getProperty("xsp.theme").indexOf("uikit")==0)}'>
+    </xp:styleSheet>
+  </xp:this.resources>
+  <xp:div> <!--accordionContainer-->
+    <xp:this.attrs>
+      <xp:attr
+        minimized="true"
+        name="data-uk-accordion"
+        value=" ">
+      </xp:attr>
+    </xp:this.attrs>
+    <xp:this.styleClass>
+    <![CDATA[${javascript:var accordionStyle = "uk-accordion";
+switch(compositeData.panelColor) {
+	case "default":
+		accordionStyle += " panelBorder";
+		break;
+	case "primary":
+		accordionStyle += " uk-primary-border-color";
+		break;
+	case "info":
+		accordionStyle += " uk-info-border-color";
+		break;
+	case "success":
+		accordionStyle += " uk-success-border-color";
+		break;
+	case "warning":
+		accordionStyle += " uk-warning-border-color";
+		break;
+	case "danger":
+		accordionStyle += " uk-danger-border-color";
+		break;
+	default:
+		print("check the panel custom control panelColor definition.");
+}
+accordionStyle += (compositeData.roundedCorner) ? " uk-border-rounded" : "";
+return accordionStyle;}]]>
+    </xp:this.styleClass>
+    <xp:panel
+      tagName="h3"
+      id="accordionTitle"
+      style="font-weight: 600">
+      <xp:this.styleClass><![CDATA[${javascript:var accordionTitleStyle = "uk-accordion-title uk-sortable-handle";
+switch(compositeData.panelColor) {
+	case "default":
+		accordionTitleStyle += " ";
+		break;
+	case "primary":
+		accordionTitleStyle += " uk-primary-color";
+		break;
+	case "info":
+		accordionTitleStyle += " uk-info-color";
+		break;
+	case "success":
+		accordionTitleStyle += " uk-success-color";
+		break;
+	case "warning":
+		accordionTitleStyle += " uk-warning-color";
+		break;
+	case "danger":
+		accordionTitleStyle += " uk-danger-color";
+		break;
+	default:
+		print("check the panel custom control panelColor definition.");
+}
+return accordionTitleStyle;}]]></xp:this.styleClass>
+      <xp:label
+        value="${javascript:return compositeData.panelTitle;}"></xp:label>
+      <xp:panel
+        tagName="i"
+        styleClass="uk-icon-chevron-down uk-align-right">
+      </xp:panel>
+    </xp:panel> <!-- accordion title -->
+    <xp:div
+      styleClass="uk-accordion-content uk-padding-remove">
+      <xp:callback
+        id="panelContent"
+        facetName="panelContent">
+      </xp:callback>
+    </xp:div><!--  accordion content -->
+  </xp:div><!--  accordionContainer -->
+  <xp:eventHandler
+    event="onClientLoad"
+    submit="false">
+    <xp:this.script><![CDATA[x$("#{id:accordionTitle}").click(function(){
+	$(this).find('i').toggleClass('uk-icon-chevron-down uk-icon-chevron-left');
+	});]]></xp:this.script>
+  </xp:eventHandler>
+</xp:view>

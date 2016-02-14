@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
+  <xp:panel style="border-color:rgb(0,0,0);border-style:dashed;border-width:thin">
+    Panel title = <%=this.panelTitle %>
+    <xp:br></xp:br>
+    Panel color = <%=this.panelColor %>
+    <xp:br></xp:br>
+    Rounded corner = <%=this.roundedCorner %>
+    <xp:br></xp:br>
+    Content =
+    <xp:callback
+      id="panelContent"
+      facetName="panelContent" />
+  </xp:panel>
+</xp:view>

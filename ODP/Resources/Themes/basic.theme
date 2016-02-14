@@ -1,0 +1,18 @@
+<theme
+  extends=""
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="platform:/plugin/com.ibm.designer.domino.stylekits/schema/stylekit.xsd">
+  <resources>
+    <styleSheet
+      href="uikit/css/open-sans.css" />
+    <script
+      src="uikit/js/jquery.min.js"
+      clientSide="true" />
+    <script
+      src="uikit/js/x$.js"
+      clientSide="true" />
+    <script
+      src="uikit/js/uikit.min.js"
+      clientSide="true" />
+  </resources>
+</theme>

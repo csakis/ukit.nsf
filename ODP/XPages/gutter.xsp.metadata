@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.5" replicaid="87257F5900622873" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="3d6" sequence="15" unid="BE0358F4F5B354EF87257EF7005CC487">
+<created><datetime>20151108T095316,23-07</datetime></created>
+<modified><datetime>20160214T105219,33-07</datetime></modified>
+<revised><datetime>20160214T105219,32-07</datetime></revised>
+<lastaccessed><datetime>20160214T105219,32-07</datetime></lastaccessed>
+<addedtofile><datetime>20160214T105212,38-07</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=test cadmin/O=home</name><name>CN=Csaba Kiss/O=csaba</name><name>CN=Csaba Kiss/O=CSABA-PC</name></updatedby>
+<wassignedby><name>CN=Csaba Kiss/O=CSABA-PC</name></wassignedby>
+<item name="$Flags"><text>gC~4K</text></item>
+
+
+<item name="$FileNames" sign="true"><text>simpleGrid_1.xsp</text></item>
+<item name="$TITLE" sign="true"><text>gutter.xsp</text></item>
+<item name="$DesignerVersion"><text>8.5</text></item>
+
+
+
+
+</note>

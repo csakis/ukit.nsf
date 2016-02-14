@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.5" replicaid="87257F5900622873" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="156" sequence="43" unid="9DADBB1593F7A88387257EF4006490B8">
+<created><datetime>20151105T111826,48-07</datetime></created>
+<modified><datetime>20160214T105218,67-07</datetime></modified>
+<revised><datetime>20160214T105218,66-07</datetime></revised>
+<lastaccessed><datetime>20160214T105218,66-07</datetime></lastaccessed>
+<addedtofile><datetime>20160214T105209,18-07</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Csaba Kiss/O=csaba</name><name>CN=test cadmin/O=home</name><name>CN=Csaba Kiss/O=csaba</name><name>CN=Csaba Kiss/O=CSABA-PC</name></updatedby>
+<wassignedby><name>CN=Csaba Kiss/O=CSABA-PC</name></wassignedby>
+<item name="$TITLE"><text>basic.theme</text></item>
+<item name="$Flags"><text>34567Cg~`</text></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+
+<item name="$FileNames" sign="true"><text>basic.theme</text></item></note>

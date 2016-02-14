@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core" createForm="false">
+   <xp:div styleClass="uk-container uk-container-center">
+      <xp:div styleClass="uk-grid uk-text-center ">
+         <xp:div styleClass="uk-width-1-2">
+            <xp:div styleClass="uk-panel uk-panel-box uk-panel-box-primary">uk-width-1-2</xp:div>
+         </xp:div>
+         <xp:div styleClass="uk-width-1-2 ">
+            <xp:div styleClass="uk-panel uk-panel-box uk-panel-box-primary">uk-width-1-2</xp:div>
+         </xp:div>
+      </xp:div><!-- uk-grid -->
+   </xp:div><!-- uk-container -->
+</xp:view>

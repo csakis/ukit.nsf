@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.5" replicaid="87257F5900622873" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="336" sequence="15" unid="717E7B412B86DB4287257EF4006DD734">
+<created><datetime>20151105T125945,16-07</datetime></created>
+<modified><datetime>20160214T105219,67-07</datetime></modified>
+<revised><datetime>20160214T105219,66-07</datetime></revised>
+<lastaccessed><datetime>20160214T105219,66-07</datetime></lastaccessed>
+<addedtofile><datetime>20160214T105211,58-07</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Csaba Kiss/O=csaba</name><name>CN=test cadmin/O=home</name><name>CN=Csaba Kiss/O=csaba</name><name>CN=Csaba Kiss/O=CSABA-PC</name></updatedby>
+<wassignedby><name>CN=Csaba Kiss/O=CSABA-PC</name></wassignedby>
+<item name="$TITLE" sign="true"><text>placeholder.almost-flat.min.css</text></item>
+<item name="$FileModDT" sign="true"><datetime>20151105T140245,22-07</datetime></item>
+<item name="$MimeType"><text>text/css</text></item>
+<item name="$Flags"><text>g345QC</text></item>
+<item name="$FlagsExt" sign="true"><text>D</text></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+
+<item name="$FileNames" sign="true"><text>placeholder.almost-flat.min.css</text></item></note>

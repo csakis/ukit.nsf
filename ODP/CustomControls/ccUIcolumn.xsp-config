@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config>
+  <faces-config-extension>
+    <namespace-uri>http://www.ibm.com/xsp/custom</namespace-uri>
+    <default-prefix>xc</default-prefix>
+  </faces-config-extension>
+  <composite-component>
+    <component-type>ccUIcolumn</component-type>
+    <composite-name>ccUIcolumn</composite-name>
+    <composite-file>/ccUIcolumn.xsp</composite-file>
+    <composite-extension>
+      <designer-extension>
+        <in-palette>true</in-palette>
+        <render-markup>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&#xd;
+&lt;xp:view xmlns:xp="http://www.ibm.com/xsp/core"&gt;&#xd;
+  &lt;xp:label&#xd;
+    value="something"&#xd;
+    id="label1"&gt;&#xd;
+  &lt;/xp:label&gt;&#xd;
+  &lt;/xp:view&gt;</render-markup>
+      </designer-extension>
+    </composite-extension>
+    <property>
+      <property-name>isEvenGrid</property-name>
+      <property-class>boolean</property-class>
+      <display-name>isEvenGrid</display-name>
+      <property-extension>
+        <designer-extension>
+          <editor>com.ibm.std.BooleanCheckBox</editor>
+          <default-value>true</default-value>
+        </designer-extension>
+        <required>true</required>
+      </property-extension>
+      <description>check the box if the column is in an even grid </description>
+    </property>
+    <property>
+      <property-name>isReponsive</property-name>
+      <property-class>boolean</property-class>
+      <property-extension>
+        <designer-extension>
+          <visible>!isEvenGrid</visible>
+          <editor>com.ibm.std.BooleanCheckBox</editor>
+          <default-value>false</default-value>
+        </designer-extension>
+      </property-extension>
+    </property>
+    <property>
+      <property-name>ukWidth</property-name>
+      <property-class>string</property-class>
+      <display-name>uk-width-*</display-name>
+      <property-extension>
+        <designer-extension>
+          <visible>!isEvenGrid &amp;&amp; !isReponsive</visible>
+          <validation-formula>(["1-1","1-2","2-2","1-3","2-3","3-3","1-4","2-4","3-4","4-4","1-5","2-5","3-5","4-5","5-5","1-6","2-6","3-6","4-6","5-6","6-6","1-10","2-10","3-10","4-10","5-10","6-10","7-10","8-10","9-10","10-10"]).toString().indexOf(value) !=-1</validation-formula>
+        </designer-extension>
+      </property-extension>
+    </property>
+    <property>
+      <property-name>ukWidthSmall</property-name>
+      <property-class>string</property-class>
+      <display-name>uk-width-small</display-name>
+      <property-extension>
+        <designer-extension>
+          <visible>!isEvenGrid &amp;&amp; isReponsive</visible>
+          <default-value/>
+          <validation-formula>(["1-1","1-2","2-2","1-3","2-3","3-3","1-4","2-4","3-4","4-4","1-5","2-5","3-5","4-5","5-5","1-6","2-6","3-6","4-6","5-6","6-6","1-10","2-10","3-10","4-10","5-10","6-10","7-10","8-10","9-10","10-10"]).toString().indexOf(value) !=-1</validation-formula>
+        </designer-extension>
+      </property-extension>
+    </property>
+    <property>
+      <property-name>ukWidthMedium</property-name>
+      <property-class>string</property-class>
+      <display-name>uk-width-medium</display-name>
+      <property-extension>
+        <designer-extension>
+          <visible>!isEvenGrid &amp;&amp; isReponsive</visible>
+          <default-value/>
+          <validation-formula>(["1-1","1-2","2-2","1-3","2-3","3-3","1-4","2-4","3-4","4-4","1-5","2-5","3-5","4-5","5-5","1-6","2-6","3-6","4-6","5-6","6-6","1-10","2-10","3-10","4-10","5-10","6-10","7-10","8-10","9-10","10-10"]).toString().indexOf(value) !=-1</validation-formula>
+        </designer-extension>
+      </property-extension>
+    </property>
+    <property>
+      <property-name>ukWidthLarge</property-name>
+      <property-class>string</property-class>
+      <display-name>uk-width-large</display-name>
+      <property-extension>
+        <designer-extension>
+          <visible>!isEvenGrid &amp;&amp; isReponsive</visible>
+          <default-value/>
+          <validation-formula>(["1-1","1-2","2-2","1-3","2-3","3-3","1-4","2-4","3-4","4-4","1-5","2-5","3-5","4-5","5-5","1-6","2-6","3-6","4-6","5-6","6-6","1-10","2-10","3-10","4-10","5-10","6-10","7-10","8-10","9-10","10-10"]).toString().indexOf(value) !=-1</validation-formula>
+        </designer-extension>
+      </property-extension>
+    </property>
+  </composite-component>
+</faces-config>

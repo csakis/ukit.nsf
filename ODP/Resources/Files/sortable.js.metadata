@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.5" replicaid="87257F5900622873" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="406" sequence="5" unid="1E0C9C4AFD3E53C987257EFE007FFAA6">
+<created><datetime>20151115T161752,38-07</datetime></created>
+<modified><datetime>20160214T105220,21-07</datetime></modified>
+<revised><datetime>20160214T105220,20-07</datetime></revised>
+<lastaccessed><datetime>20160214T105220,20-07</datetime></lastaccessed>
+<addedtofile><datetime>20160214T105212,62-07</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=test cadmin/O=home</name><name>CN=Csaba Kiss/O=csaba</name><name>CN=Csaba Kiss/O=CSABA-PC</name></updatedby>
+<wassignedby><name>CN=Csaba Kiss/O=CSABA-PC</name></wassignedby>
+<item name="$Flags"><text>345CgQ</text></item>
+<item name="$TITLE"><text>sortable.js</text></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+
+<item name="$FileNames" sign="true"><text>sortable.js</text></item></note>

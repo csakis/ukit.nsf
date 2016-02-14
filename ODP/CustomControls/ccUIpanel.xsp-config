@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config>
+  <faces-config-extension>
+    <namespace-uri>http://www.ibm.com/xsp/custom</namespace-uri>
+    <default-prefix>xc</default-prefix>
+  </faces-config-extension>
+  <composite-component>
+    <component-type>ccUIpanel</component-type>
+    <composite-name>ccUIpanel</composite-name>
+    <composite-file>/ccUIpanel.xsp</composite-file>
+    <composite-extension>
+      <designer-extension>
+        <in-palette>true</in-palette>
+        <render-markup>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&#xd;
+&lt;xp:view xmlns:xp="http://www.ibm.com/xsp/core"&gt;&#xd;
+  &lt;xp:panel style="border-color:rgb(0,0,0);border-style:solid;border-width:1px;"&gt;&#xd;
+    Panel title = &lt;%=this.panelTitle %&gt;&#xd;
+    &lt;xp:br&gt;&lt;/xp:br&gt;&#xd;
+    Panel color = &lt;%=this.panelColor %&gt;&#xd;
+    &lt;xp:br&gt;&lt;/xp:br&gt;&#xd;
+    Rounded corner = &lt;%=this.roundedCorner %&gt;&#xd;
+    &lt;xp:br&gt;&lt;/xp:br&gt;&#xd;
+    &lt;xp:callback&#xd;
+      id="panelContent"&#xd;
+      facetName="panelContent" /&gt;&#xd;
+  &lt;/xp:panel&gt;&#xd;
+&lt;/xp:view&gt;&#xd;
+</render-markup>
+      </designer-extension>
+    </composite-extension>
+    <property>
+      <property-name>panelTitle</property-name>
+      <property-class>string</property-class>
+      <display-name>panel title </display-name>
+      <description>Describe briefly what the panel contains. </description>
+    </property>
+    <property>
+      <property-name>panelColor</property-name>
+      <property-class>string</property-class>
+      <display-name>panel Color</display-name>
+      <property-extension>
+        <designer-extension>
+          <editor>com.ibm.workplace.designer.property.editors.comboParameterEditor</editor>
+          <editor-parameter>default&#xd;
+primary&#xd;
+info&#xd;
+success&#xd;
+warning&#xd;
+danger</editor-parameter>
+          <default-value>default</default-value>
+        </designer-extension>
+      </property-extension>
+    </property>
+    <property>
+      <property-name>roundedCorner</property-name>
+      <property-class>boolean</property-class>
+      <display-name>Rounded panel corners?</display-name>
+      <property-extension>
+        <designer-extension>
+          <editor>com.ibm.std.BooleanCheckBox</editor>
+          <default-value>false</default-value>
+        </designer-extension>
+      </property-extension>
+      <description>Check the box if you want the corner of the panel rounded.</description>
+    </property>
+  </composite-component>
+</faces-config>
