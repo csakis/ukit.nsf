@@ -16,7 +16,6 @@ if (!compositeData.isReponsive) {
 	gridStyle += " uk-width-large-" + compositeData.ukWidthLarge;
 	}
 return gridStyle;}]]></xp:this.styleClass>
-    <xp:callback
-      id="columnCallback"></xp:callback>
+    <xp:callback></xp:callback>
   </xp:panel>
 </xp:view>

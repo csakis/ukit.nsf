@@ -101,8 +101,7 @@ return accordionTitleStyle;}]]></xp:this.styleClass>
     </xp:panel> <!-- accordion title -->
     <xp:div
       styleClass="uk-accordion-content uk-padding-remove">
-      <xp:callback
-        id="panelContent">
+      <xp:callback>
       </xp:callback>
     </xp:div><!--  accordion content -->
   </xp:div><!--  accordionContainer -->

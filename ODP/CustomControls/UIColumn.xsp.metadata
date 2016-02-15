@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.5" replicaid="87257F59007F77C3" version="9.0" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="80e" sequence="28" unid="B9BEA90AA9F5AEDC87257F59007FD387">
+<noteinfo noteid="80e" sequence="29" unid="B9BEA90AA9F5AEDC87257F59007FD387">
 <created><datetime>20160214T161612,23-07</datetime></created>
-<modified><datetime>20160214T172320,20-07</datetime></modified>
-<revised><datetime>20160214T172320,19-07</datetime></revised>
-<lastaccessed><datetime>20160214T172320,19-07</datetime></lastaccessed>
+<modified><datetime>20160214T182557,47-07</datetime></modified>
+<revised><datetime>20160214T182557,46-07</datetime></revised>
+<lastaccessed><datetime>20160214T182557,46-07</datetime></lastaccessed>
 <addedtofile><datetime>20160214T161612,28-07</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Csaba Kiss/O=CSABA-PC</name></updatedby>
 <wassignedby><name>CN=Csaba Kiss/O=CSABA-PC</name></wassignedby>
 <item name="$Flags"><text>gC~4;</text></item>
-
-
-<item name="$FileNames" sign="true"><text>ccUIcolumn.xsp</text></item>
 
 
 <item name="$TITLE" sign="true"><text>UIColumn.xsp</text></item>
@@ -19,4 +16,7 @@
 
 
 
-</note>
+
+
+
+<item name="$FileNames" sign="true"><text>UIColumn.xsp</text></item></note>
