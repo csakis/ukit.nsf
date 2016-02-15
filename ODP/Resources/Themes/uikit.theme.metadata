@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.5" replicaid="87257F5900622873" version="9.0" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="15a" sequence="11" unid="68126720FD6A94CB87257EF4006513A4">
-<created><datetime>20151105T112401,64-07</datetime></created>
-<modified><datetime>20160214T105220,51-07</datetime></modified>
-<revised><datetime>20160214T105220,50-07</datetime></revised>
-<lastaccessed><datetime>20160214T105220,50-07</datetime></lastaccessed>
-<addedtofile><datetime>20160214T105209,20-07</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Csaba Kiss/O=csaba</name><name>CN=test cadmin/O=home</name><name>CN=Csaba Kiss/O=csaba</name><name>CN=Csaba Kiss/O=CSABA-PC</name></updatedby>
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.5" replicaid="87257F59007F77C3" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="4aa" sequence="8" unid="DDE90D724D989BC887257F59007F7C1B">
+<created><datetime>20160214T161228,43-07</datetime></created>
+<modified><datetime>20160214T192651,56-07</datetime></modified>
+<revised><datetime>20160214T192651,55-07</datetime></revised>
+<lastaccessed><datetime>20160214T192651,55-07</datetime></lastaccessed>
+<addedtofile><datetime>20160214T161231,69-07</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Csaba Kiss/O=CSABA-PC</name></updatedby>
 <wassignedby><name>CN=Csaba Kiss/O=CSABA-PC</name></wassignedby>
 <item name="$TITLE"><text>uikit.theme</text></item>
 <item name="$Flags"><text>34567Cg~`</text></item>

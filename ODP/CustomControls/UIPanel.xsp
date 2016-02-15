@@ -67,38 +67,41 @@ return accordionStyle;}]]>
     <xp:panel
       tagName="h3"
       id="accordionTitle"
-      style="font-weight: 600">
+    >
       <xp:this.styleClass><![CDATA[${javascript:var accordionTitleStyle = "uk-accordion-title uk-sortable-handle";
 switch(compositeData.panelColor) {
 	case "default":
 		accordionTitleStyle += " ";
 		break;
 	case "primary":
-		accordionTitleStyle += " uk-primary-color";
+		accordionTitleStyle += " uk-primary-background-color";
 		break;
 	case "info":
-		accordionTitleStyle += " uk-info-color";
+		accordionTitleStyle += " uk-info-background-color";
 		break;
 	case "success":
-		accordionTitleStyle += " uk-success-color";
+		accordionTitleStyle += " uk-success-background-color";
 		break;
 	case "warning":
-		accordionTitleStyle += " uk-warning-color";
+		accordionTitleStyle += " uk-warning-background-color";
 		break;
 	case "danger":
-		accordionTitleStyle += " uk-danger-color";
+		accordionTitleStyle += " uk-danger-background-color";
 		break;
 	default:
 		print("check the panel custom control panelColor definition.");
 }
 return accordionTitleStyle;}]]></xp:this.styleClass>
-      <xp:label
-        value="${javascript:return compositeData.panelTitle;}"></xp:label>
+      <xp:this.style><![CDATA[${javascript:var returnStyle = "font-weight: 600; ";
+returnStyle += (compositeData.panelColor === "default") ? "color: black; background: #EEE; border: 1px solid black;": "color:white;";
+return returnStyle; }]]></xp:this.style>
+      <xp:label value="${javascript:return compositeData.panelTitle;}"></xp:label>
       <xp:panel
         tagName="i"
-        styleClass="uk-icon-chevron-down uk-align-right">
+        styleClass="uk-icon-chevron-down uk-align-right"
+      >
       </xp:panel>
-    </xp:panel> <!-- accordion title -->
+    </xp:panel><!-- accordion title -->
     <xp:div
       styleClass="uk-accordion-content uk-padding-remove">
       <xp:callback>

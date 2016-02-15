@@ -20,7 +20,7 @@
     >
       <xp:panel tagName="li">
         <xc:UIPanel
-          panelColor="default"
+          panelColor="warning"
           roundedCorner="false"
           panelTitle="Panel"
         >
@@ -33,7 +33,7 @@
       </xp:panel>
       <xp:panel tagName="li">
         <xc:UIPanel
-          panelColor="default"
+          panelColor="danger"
           roundedCorner="false"
           panelTitle="Panel"
         >

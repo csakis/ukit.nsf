@@ -26,19 +26,19 @@
   color: #72d8ff;
 }
 .uk-primary-background-color {
-  background-color: #009dd8;
+  background: #009dd8;
 }
 .uk-success-background-color {
-  background-color: #82bb42;
+  background: #82bb42;
 }
 .uk-warning-background-color {
-  background-color: #f9a124;
+  background: #f9a124; 
 }
 .uk-danger-background-color {
-  background-color: #d32c46;
+  background: #d32c46;
 }
 .uk-info-background-color {
-  background-color: #72d8ff;
+  background: #72d8ff;
 }
 .uk-primary-border-color {
   border: 1px solid #009dd8;
