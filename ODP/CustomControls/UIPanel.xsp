@@ -92,7 +92,7 @@ switch(compositeData.panelColor) {
 		print("check the panel custom control panelColor definition.");
 }
 return accordionTitleStyle;}]]></xp:this.styleClass>
-      <xp:this.style><![CDATA[${javascript:var returnStyle = "font-weight: 600; ";
+      <xp:this.style><![CDATA[${javascript:var returnStyle = "font-weight: 400; ";
 returnStyle += (compositeData.panelColor === "default") ? "color: black; background: #EEE; border: 1px solid black;": "color:white;";
 return returnStyle; }]]></xp:this.style>
       <xp:label value="${javascript:return compositeData.panelTitle;}"></xp:label>
