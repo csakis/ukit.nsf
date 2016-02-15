@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.5" replicaid="87257F59007F77C3" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="812" sequence="31" unid="741E1C716C14033D87257F59007FD38B">
+<created><datetime>20160214T161612,27-07</datetime></created>
+<modified><datetime>20160214T173509,01-07</datetime></modified>
+<revised><datetime>20160214T173509,00-07</datetime></revised>
+<lastaccessed><datetime>20160214T173509,00-07</datetime></lastaccessed>
+<addedtofile><datetime>20160214T161612,36-07</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Csaba Kiss/O=CSABA-PC</name></updatedby>
+<wassignedby><name>CN=Csaba Kiss/O=CSABA-PC</name></wassignedby>
+<item name="$Flags"><text>gC~4;</text></item>
+<item name="$TITLE" sign="true"><text>UIGrid.xsp</text></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+
+
+
+
+
+
+
+
+<item name="$FileNames" sign="true"><text>UIGrid.xsp</text></item></note>

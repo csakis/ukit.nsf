@@ -1,14 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <note default='true' class='icon' xmlns='http://www.lotus.com/dxl' version='9.0'
- maintenanceversion='1.5' replicaid='87257F5900622873'>
-<noteinfo noteid='126' unid='C2CE3FBAE91771D187257EF4005D114B' sequence='8'>
-<created><datetime>20151105T095632,75-07</datetime></created>
-<modified><datetime>20160214T105212,73-07</datetime></modified>
-<revised><datetime>20160214T105212,72-07</datetime></revised>
-<lastaccessed><datetime>20160214T105212,72-07</datetime></lastaccessed>
-<addedtofile><datetime>20160214T105208,94-07</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Csaba Kiss/O=csaba</name><name>CN=test cadmin/O=home</name><name
->CN=Csaba Kiss/O=csaba</name><name>CN=Csaba Kiss/O=CSABA-PC</name></updatedby>
+ maintenanceversion='1.5' replicaid='87257F59007F77C3'>
+<noteinfo noteid='11e' unid='0694400D4D750DEE87257F59007F77C6' sequence='9'>
+<created><datetime>20160214T161217,34-07</datetime></created>
+<modified><datetime>20160214T161752,63-07</datetime></modified>
+<revised><datetime>20160214T161752,62-07</datetime></revised>
+<lastaccessed><datetime>20160214T161752,62-07</datetime></lastaccessed>
+<addedtofile><datetime>20160214T161217,36-07</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Csaba Kiss/O=CSABA-PC</name></updatedby>
 <item name='IconBitmap' summary='true'>
 <rawitemdata type='6'>
 AiAgAQAA///////wD///4Af//8AD//4AAH/8AAA/+AAAH/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAA

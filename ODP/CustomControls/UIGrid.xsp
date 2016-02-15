@@ -4,29 +4,29 @@
       <xp:script src="sortable.js" clientSide="true" loaded='${javascript:return compositeData.sortable}'></xp:script>
       <xp:styleSheet href="sortable.min.css" loaded='${javascript:return compositeData.sortable}'>
       </xp:styleSheet></xp:this.resources>
-   <xp:panel tagName="div">
-    <xp:this.attrs>
-      <xp:attr>
-        <xp:this.name><![CDATA[#{javascript:if (compositeData.matchHeight)  {
+    <xp:panel tagName="div">
+      <xp:this.attrs>
+        <xp:attr>
+          <xp:this.name><![CDATA[#{javascript:if (compositeData.matchHeight)  {
 	return "data-uk-grid-margin";
 }}]]></xp:this.name>
-        <xp:this.minimized><![CDATA[#{javascript:if (compositeData.matchHeight)  {
+          <xp:this.minimized><![CDATA[#{javascript:if (compositeData.matchHeight)  {
 	return "true";
 }}]]></xp:this.minimized>
-        <xp:this.value><![CDATA[#{javascript:if (compositeData.matchHeight)  {
+          <xp:this.value><![CDATA[#{javascript:if (compositeData.matchHeight)  {
 	return " "
 }}]]></xp:this.value>
-      </xp:attr>
-      <xp:attr>
-        <xp:this.name><![CDATA[#{javascript:if (compositeData.sortable)  {
+        </xp:attr>
+        <xp:attr>
+          <xp:this.name><![CDATA[#{javascript:if (compositeData.sortable)  {
 	return "data-uk-sortable";
 }}]]></xp:this.name>
-        <xp:this.value><![CDATA[#{javascript:if (compositeData.sortable)  {
+          <xp:this.value><![CDATA[#{javascript:if (compositeData.sortable)  {
 	return "{handleClass:'uk-sortable-handle'}";
 }}]]></xp:this.value>
-      </xp:attr>
-    </xp:this.attrs>
-    <xp:this.styleClass><![CDATA[#{javascript:var ukGridStyle = "uk-grid";
+        </xp:attr>
+      </xp:this.attrs>
+      <xp:this.styleClass><![CDATA[#{javascript:var ukGridStyle = "uk-grid";
 
 // gutter
 ukGridStyle += (compositeData.gutter === "small") ? " uk-grid-small": "";
@@ -38,19 +38,20 @@ ukGridStyle += (compositeData.gutter === "collapse") ? " uk-grid-collapse": "";
 ukGridStyle += (compositeData.sortable) ? " uk-sortable": "";
 
 //even grid
-if (compositeData.evenGrid) {
+if (compositeData.isEvenGrid) {
 	if(compositeData.isResponsive) {
 		ukGridStyle += (compositeData.ukGridWidthSmall !== "") ? " uk-grid-width-small-" + compositeData.ukGridWidthSmall: "";
 		ukGridStyle += (compositeData.ukGridWidthMedium !== "") ? " uk-grid-width-medium-" + compositeData.ukGridWidthMedium: "";
 		ukGridStyle += (compositeData.ukGridWidthLarge !== "") ? " uk-grid-width-large-" + compositeData.ukGridWidthLarge: "";
 		ukGridStyle += (compositeData.ukGridWidthXLarge !== "") ? " uk-grid-width-xlarge-" + compositeData.ukGridWidthXLarge: "";
 	}
-	else {
-		ukGridStyle += (compositeData.ukGridWidth !== "") ? " uk-grid-width-" + compositeData.ukGridWidth: "";
-	}
+  else {
+  ukGridStyle += (compositeData.ukGridWidth !== "") ? " uk-grid-width-" + compositeData.ukGridWidth: "";
+}
 }
 
+
 return ukGridStyle;}]]></xp:this.styleClass>
-    <xp:callback id="gridCallback"></xp:callback>
-</xp:panel>
+      <xp:callback></xp:callback>
+    </xp:panel>
 </xp:view>

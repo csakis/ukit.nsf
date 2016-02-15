@@ -5,9 +5,9 @@
     <default-prefix>xc</default-prefix>
   </faces-config-extension>
   <composite-component>
-    <component-type>ccUIpanel</component-type>
-    <composite-name>ccUIpanel</composite-name>
-    <composite-file>/ccUIpanel.xsp</composite-file>
+    <component-type>UIPanel</component-type>
+    <composite-name>UIPanel</composite-name>
+    <composite-file>/UIPanel.xsp</composite-file>
     <composite-extension>
       <designer-extension>
         <in-palette>true</in-palette>

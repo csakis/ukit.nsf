@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view
+  xmlns:xp="http://www.ibm.com/xsp/core"
+  xmlns:xc="http://www.ibm.com/xsp/custom"
+  createForm="false"
+>
+  <xp:div styleClass="uk-container">
+    <xc:UIGrid
+      isEvenGrid="true"
+      isResponsive="true"
+      sortable="true"
+      matchHeight="true"
+      rowBreak="true"
+      ukGridWidth="1-6"
+      gutter="medium"
+      ukGridWidthXLarge="1-6"
+      ukGridWidthLarge="1-5"
+      ukGridWidthMedium="1-4"
+      ukGridWidthSmall="1-3"
+    >
+      <xp:panel tagName="li">
+        <xc:UIPanel
+          panelColor="default"
+          roundedCorner="false"
+          panelTitle="Panel"
+        >
+          <xp:button
+            value="Label"
+            id="button1"
+          >
+          </xp:button>
+        </xc:UIPanel>
+      </xp:panel>
+      <xp:panel tagName="li">
+        <xc:UIPanel
+          panelColor="default"
+          roundedCorner="false"
+          panelTitle="Panel"
+        >
+          <xp:label
+            value="Label"
+            id="label1"
+          >
+          </xp:label>
+        </xc:UIPanel>
+      </xp:panel>
+      <xp:panel tagName="li">
+        <xc:UIPanel
+          panelColor="default"
+          roundedCorner="false"
+          panelTitle="Panel"
+        >
+          <xp:radio
+            text="Label"
+            id="radio1"
+          >
+          </xp:radio>
+        </xc:UIPanel>
+      </xp:panel>
+      <xp:panel tagName="li">
+        <xc:UIPanel
+          panelColor="default"
+          roundedCorner="false"
+          panelTitle="Panel"
+        >
+          <xp:button
+            value="Label"
+            id="button2"
+          >
+          </xp:button>
+        </xc:UIPanel>
+      </xp:panel>
+      <xp:panel tagName="li">
+        <xc:UIPanel
+          panelColor="default"
+          roundedCorner="false"
+          panelTitle="Panel"
+        >
+        </xc:UIPanel>
+      </xp:panel>
+      <xp:panel tagName="li">
+        <xc:UIPanel
+          panelColor="default"
+          roundedCorner="false"
+          panelTitle="Panel"
+        >
+        </xc:UIPanel>
+      </xp:panel>
+      <xp:panel tagName="li">
+        <xc:UIPanel
+          panelColor="default"
+          roundedCorner="false"
+          panelTitle="Panel"
+        >
+        </xc:UIPanel>
+      </xp:panel>
+      <xp:panel tagName="li">
+        <xc:UIPanel
+          panelColor="default"
+          roundedCorner="false"
+          panelTitle="Panel"
+        >
+        </xc:UIPanel>
+      </xp:panel>
+      <xp:panel tagName="li">
+        <xc:UIPanel
+          panelColor="default"
+          roundedCorner="false"
+          panelTitle="Panel"
+        >
+        </xc:UIPanel>
+      </xp:panel>
+      <xp:panel tagName="li">
+        <xc:UIPanel
+          panelColor="default"
+          roundedCorner="false"
+          panelTitle="Panel"
+        >
+        </xc:UIPanel>
+      </xp:panel>
+      <xp:panel tagName="li">
+        <xc:UIPanel
+          panelColor="default"
+          roundedCorner="false"
+          panelTitle="Panel"
+        >
+        </xc:UIPanel>
+      </xp:panel>
+    </xc:UIGrid></xp:div>
+</xp:view>
