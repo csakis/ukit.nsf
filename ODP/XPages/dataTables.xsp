@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view
+  xmlns:xp="http://www.ibm.com/xsp/core"
+  xmlns:xe="http://www.ibm.com/xsp/coreex"
+  createForm="false"
+>
+  <xp:this.data>
+    <xp:dominoView
+      var="byName"
+      viewName="ByName"
+    >
+    </xp:dominoView>
+  </xp:this.data>
+  <xp:this.resources>
+    <xp:script
+      src="datatables/DataTables/js/jquery.dataTables.min.js"
+      clientSide="true"
+    >
+    </xp:script>
+    <xp:script
+      src="datatables/DataTables/js/dataTables.uikit.min.js"
+      clientSide="true"
+    >
+    </xp:script>
+    
+    <xp:styleSheet
+      href="datatables/DataTables/css/dataTables.uikit.min.css"
+    ></xp:styleSheet>
+  </xp:this.resources>
+  <xp:div
+    styleClass="uk-container uk-container-center"
+  >
+    <xp:label
+      value="Data Tables"
+      styleClass="uk-h1"
+    >
+    </xp:label>
+    <xp:table
+      id="dataTableNames"
+      styleClass="uk-table uk-table-hover uk-table-striped"
+      cellspacing="0"
+      width="100%"
+    >
+      <thead>
+        <xp:tr>
+          <th>Name</th>
+          <th>City</th>
+          <th>State</th>
+          <th>Country</th>
+        </xp:tr>
+      </thead>
+      <tbody>
+        <xp:repeat
+          id="repeat1"
+          rows="100"
+          value="#{byName}"
+          var="entry"
+        >
+          <tr>
+            <td>
+              <xp:text
+                value="#{entry.$22}"
+              >
+              </xp:text>
+            </td>
+            <td>
+              <xp:text value="#{entry.city}"></xp:text></td>
+            <td>
+              <xp:text value="#{entry.state}"></xp:text></td>
+            <td>
+              <xp:text value="#{entry.country}"></xp:text></td>
+          </tr>
+        </xp:repeat>
+      </tbody>
+      <tfoot>
+        <xp:tr>
+          <th>Name</th>
+          <th>City</th>
+          <th>State</th>
+          <th>Country</th>
+        </xp:tr>
+      </tfoot>
+    </xp:table>
+  </xp:div>
+  <xe:restService
+    id="restService1"
+    pathInfo="getPeople"
+  >
+    <xe:this.service>
+      <xe:viewJsonService
+        viewName="ByName"
+        defaultColumns="false"
+      >
+        <xe:this.columns>
+          <xe:restViewColumn
+            columnName="Name"
+            name="Name"
+          >
+          </xe:restViewColumn>
+          <xe:restViewColumn
+            columnName="City"
+            name="City"
+          >
+          </xe:restViewColumn>
+          <xe:restViewColumn
+            columnName="State"
+            name="State"
+          >
+          </xe:restViewColumn>
+          <xe:restViewColumn
+            columnName="Country"
+            name="Country"
+          >
+          </xe:restViewColumn>
+        </xe:this.columns>
+      </xe:viewJsonService>
+    </xe:this.service>
+  </xe:restService>
+  <xp:br></xp:br>
+  <xp:panel
+    id="panel"
+    tagName="span"
+  >
+  </xp:panel>
+  <xp:scriptBlock id="scriptBlock1">
+    <xp:this.value><![CDATA[var dataTableNames = x$("#{id:dataTableNames}").selector;
+var $computedField1 = x$("#{id:panel}");
+log("page is loaded");
+$(document).ready(function(){
+log("page is loaded2");
+$.ajax(
+		{
+		url: "dataTables.xsp/getPeople",
+		dataType: 'json',
+		success: function (data) {$computedField1.html(JSON.stringify(data));}
+		})
+
+ log("id: " + dataTableNames);
+ log("type: ", typeof($computedField1));
+ $(dataTableNames).DataTable({
+     });
+});
+log("ready3");
+]]></xp:this.value>
+  </xp:scriptBlock>
+  <xp:text
+    escape="true"
+    id="computedField1"
+  >
+  </xp:text>
+  <xp:eventHandler
+    event="onClientLoad"
+    submit="false"
+  >
+    <xp:this.script><![CDATA[log("page is loaded");
+
+//$.ajax(
+//		{
+//		url: "dataTables.xsp/getPeople",
+//		dataType: 'json',
+//		success: function (data) {$computedField1.html(JSON.stringify(data));}
+//		})
+//
+// log("id: " + $dataTableNames);
+// $dataTableNames.DataTable({
+//     "ajax": "dataTables.xsp/getPeople"
+//       
+// });]]></xp:this.script>
+  </xp:eventHandler>
+</xp:view>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<view name='stateList' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.5'
+ replicaid='87257F59007F77C3' showinmenu='false' noreplace='true' publicaccess='false'
+ designerversion='8.5.2' unreadmarks='none' onopengoto='lastopened' onrefresh='displayindicator'
+ headers='beveled' opencollapsed='false' showresponsehierarchy='true' showmargin='true'
+ shrinkrows='false' extendlastcolumn='false' showhierarchies='false' unreadcolor='black'
+ rowlinecount='1' headerlinecount='1' rowspacing='1' bgcolor='white' totalscolor='black'
+ headerbgcolor='white' boldunreadrows='false' evaluateactions='false' allownewdocuments='false'
+ allowcustomizations='false' hidemarginborder='false' marginwidth='0px' marginbgcolor='white'
+ uniquekeys='false' formatnoteid='3DBE9AA0CAEAA536852576480046B098'>
+<noteinfo noteid='a2a' unid='CC3ECE4E45EC82A787257F5A0019703A' sequence='1'>
+<created><datetime>20160214T213751,30-07</datetime></created>
+<modified><datetime>20160214T213751,45-07</datetime></modified>
+<revised><datetime>20160214T213751,44-07</datetime></revised>
+<lastaccessed><datetime>20160214T213751,44-07</datetime></lastaccessed>
+<addedtofile><datetime>20160214T213751,44-07</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=David Leedy/O=leedy</name><name>CN=Csaba Kiss/O=CSABA-PC</name></updatedby>
+<wassignedby><name>CN=Csaba Kiss/O=CSABA-PC</name></wassignedby><code event='selection'><formula
+>SELECT form = "state"</formula></code>
+<actionbar bgcolor='#ece9d8' bordercolor='black'>
+<actionbuttonstyle bgcolor='#ece9d8'/><font color='system'/><border style='solid'
+ width='0px 0px 1px'/>
+<action title='Categori_ze' showinbar='false' systemcommand='categorize'/>
+<action title='_Edit Document' showinbar='false' systemcommand='edit'/>
+<action title='_Send Document' showinbar='false' systemcommand='send'/>
+<action title='_Forward' showinbar='false' systemcommand='forward'/>
+<action title='_Move To Folder...' showinbar='false' systemcommand='movetofolder'/>
+<action title='_Remove From Folder' showinbar='false' systemcommand='removefromfolder'/>
+<action title='_Read' showinbar='false' systemcommand='markread'/>
+<action title='_Unread' showinbar='false' systemcommand='markunread'/>
+<action title='_Open in New Window' showinbar='false' systemcommand='openinnewwindow'/>
+<action title='_Print...' showinbar='false' systemcommand='print'/>
+<action title='_Delete' showinbar='false' systemcommand='delete'/>
+<action title='_Document Properties' showinbar='false' systemcommand='properties'/>
+<action title='C_ut' showinbar='false' systemcommand='cut'/>
+<action title='_Copy' showinbar='false' systemcommand='copy'/>
+<action title='Copy as Document _Link' showinbar='false' systemcommand='copyasdoclink'/>
+<action title='Copy as _Table' showinbar='false' systemcommand='copyastable'/>
+<action title='P_aste' showinbar='false' systemcommand='paste'/>
+<action title='_Open' showinbar='false' systemcommand='open'/>
+<action title='Bookmark' showinbar='false' systemcommand='bookmark'/></actionbar>
+<column sort='ascending' hidedetailrows='false' itemname='state' width='10'
+ resizable='true' separatemultiplevalues='true' sortnoaccent='false' sortnocase='true'
+ showaslinks='false'><columnheader title='State'><font size='9pt' style='bold'/></columnheader></column></view>
+

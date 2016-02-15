@@ -12,7 +12,7 @@
       matchHeight="true"
       rowBreak="true"
       ukGridWidth="1-6"
-      gutter="medium"
+      gutter="small"
       ukGridWidthXLarge="1-6"
       ukGridWidthLarge="1-5"
       ukGridWidthMedium="1-4"
@@ -91,7 +91,8 @@
           panelColor="info"
           roundedCorner="true"
           panelTitle="Panel"
-        >
+        >efrghdefgh<xp:br></xp:br>mm,m,m,m,m
+        l,mkljkklklklkl
         </xc:UIPanel>
       </xp:panel>
       <xp:panel tagName="li">
@@ -107,7 +108,7 @@
           panelColor="default"
           roundedCorner="false"
           panelTitle="Panel"
-        >
+        >aerhaerherh<xp:br></xp:br>
         </xc:UIPanel>
       </xp:panel>
       <xp:panel tagName="li">

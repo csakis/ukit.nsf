@@ -6,24 +6,25 @@
       </xp:styleSheet></xp:this.resources>
     <xp:panel tagName="div">
       <xp:this.attrs>
+        
         <xp:attr>
-          <xp:this.name><![CDATA[#{javascript:if (compositeData.matchHeight)  {
-	return "data-uk-grid-margin";
+          <xp:this.name><![CDATA[${javascript:if (compositeData.sortable)  {
+	return "data-uk-sortable";
 }}]]></xp:this.name>
-          <xp:this.minimized><![CDATA[#{javascript:if (compositeData.matchHeight)  {
-	return "true";
-}}]]></xp:this.minimized>
-          <xp:this.value><![CDATA[#{javascript:if (compositeData.matchHeight)  {
-	return " "
+          <xp:this.value><![CDATA[${javascript:if (compositeData.sortable)  {
+	return "{handleClass:'uk-sortable-handle'}";
 }}]]></xp:this.value>
         </xp:attr>
         <xp:attr>
-          <xp:this.name><![CDATA[#{javascript:if (compositeData.sortable)  {
-	return "data-uk-sortable";
+          <xp:this.name><![CDATA[${javascript:if (compositeData.rowBreak)  {
+	return "data-uk-grid-margin";
 }}]]></xp:this.name>
-          <xp:this.value><![CDATA[#{javascript:if (compositeData.sortable)  {
-	return "{handleClass:'uk-sortable-handle'}";
-}}]]></xp:this.value>
+          <xp:this.minimized><![CDATA[${javascript:if (compositeData.rowBreak)  {
+	return true;
+}}]]></xp:this.minimized>
+          <xp:this.value><![CDATA[${javascript:if (compositeData.rowBreak)  {
+	return " ";
+	}}]]></xp:this.value>
         </xp:attr>
       </xp:this.attrs>
       <xp:this.styleClass><![CDATA[#{javascript:var ukGridStyle = "uk-grid";
@@ -36,6 +37,9 @@ ukGridStyle += (compositeData.gutter === "collapse") ? " uk-grid-collapse": "";
 
 //sortable
 ukGridStyle += (compositeData.sortable) ? " uk-sortable": "";
+
+//gridMatch
+ukGridStyle += (compositeData.matchHeight) ? " uk-grid-match": "";
 
 //even grid
 if (compositeData.isEvenGrid) {
