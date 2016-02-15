@@ -80,8 +80,16 @@
       </xp:panel>
       <xp:panel tagName="li">
         <xc:UIPanel
-          panelColor="default"
+          panelColor="warning"
           roundedCorner="false"
+          panelTitle="Panel"
+        >
+        </xc:UIPanel>
+      </xp:panel>
+      <xp:panel tagName="li">
+        <xc:UIPanel
+          panelColor="info"
+          roundedCorner="true"
           panelTitle="Panel"
         >
         </xc:UIPanel>
@@ -104,16 +112,8 @@
       </xp:panel>
       <xp:panel tagName="li">
         <xc:UIPanel
-          panelColor="default"
-          roundedCorner="false"
-          panelTitle="Panel"
-        >
-        </xc:UIPanel>
-      </xp:panel>
-      <xp:panel tagName="li">
-        <xc:UIPanel
-          panelColor="default"
-          roundedCorner="false"
+          panelColor="success"
+          roundedCorner="true"
           panelTitle="Panel"
         >
         </xc:UIPanel>
