@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view
+  xmlns:xp="http://www.ibm.com/xsp/core"
+  xmlns:xc="http://www.ibm.com/xsp/custom">
+  <xp:this.resources>
+   <xp:styleSheet href="uikit/css/codemirror.css"></xp:styleSheet>
+  
+    <xp:script
+      src="uikit/js/codemirror.js"
+      clientSide="true">
+    </xp:script>
+    <xp:script
+      src="uikit/js/overlay.js"
+      clientSide="true">
+    </xp:script>
+    <xp:script
+      src="uikit/js/xml.js"
+      clientSide="true">
+    </xp:script>
+   <xp:script
+      src="uikit/js/gfm.js"
+      clientSide="true">
+    </xp:script>
+    <xp:script
+      src="uikit/js/marked.js"
+      clientSide="true">
+    </xp:script>
+    
+     <xp:styleSheet href="htmleditor.css"></xp:styleSheet>
+    
+    <xp:script
+      src="htmleditor.js"
+      clientSide="true">
+    </xp:script>
+   
+  </xp:this.resources>
+  <xp:div styleClass="uk-container uk-container-center">
+    <xc:UIGrid
+      isEvenGrid="false"
+      isResponsive="true"
+      sortable="true"
+      matchHeight="true"
+      rowBreak="true">
+      <xc:UIColumn
+        ukWidthLarge="1-3"
+        ukWidthMedium="1-2"
+        ukWidthSmall="1-1">
+        <xc:UIPanel
+          panelColor="primary"
+          roundedCorner="true"
+          panelTitle="Editor">
+          <xp:inputTextarea id="inputTextarea1">
+            <xp:this.attrs>
+              <xp:attr
+                minimized="true"
+                name="data-uk-htmleditor"
+                value=" ">
+              </xp:attr>
+            </xp:this.attrs>
+          </xp:inputTextarea>
+        </xc:UIPanel>
+      </xc:UIColumn>
+    </xc:UIGrid></xp:div>
+  
+  
+  </xp:view>

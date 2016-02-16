@@ -9,25 +9,22 @@
       isEvenGrid="true"
       isResponsive="true"
       sortable="true"
-      matchHeight="true"
+      matchHeight="false"
       rowBreak="true"
       ukGridWidth="1-6"
       gutter="small"
       ukGridWidthXLarge="1-6"
       ukGridWidthLarge="1-5"
       ukGridWidthMedium="1-4"
-      ukGridWidthSmall="1-3"
-    >
+      ukGridWidthSmall="1-3">
       <xp:panel tagName="li">
         <xc:UIPanel
           panelColor="warning"
           roundedCorner="false"
-          panelTitle="Panel"
-        >
+          panelTitle="Panel">
           <xp:button
             value="Label"
-            id="button1"
-          >
+            id="button1">
           </xp:button>
         </xc:UIPanel>
       </xp:panel>
@@ -35,12 +32,10 @@
         <xc:UIPanel
           panelColor="danger"
           roundedCorner="false"
-          panelTitle="Panel"
-        >
+          panelTitle="Panel">
           <xp:label
             value="Label"
-            id="label1"
-          >
+            id="label1">
           </xp:label>
         </xc:UIPanel>
       </xp:panel>
@@ -48,12 +43,10 @@
         <xc:UIPanel
           panelColor="default"
           roundedCorner="false"
-          panelTitle="Panel"
-        >
+          panelTitle="Panel">
           <xp:radio
             text="Label"
-            id="radio1"
-          >
+            id="radio1">
           </xp:radio>
         </xc:UIPanel>
       </xp:panel>
@@ -61,12 +54,10 @@
         <xc:UIPanel
           panelColor="default"
           roundedCorner="false"
-          panelTitle="Panel"
-        >
+          panelTitle="Panel">
           <xp:button
             value="Label"
-            id="button2"
-          >
+            id="button2">
           </xp:button>
         </xc:UIPanel>
       </xp:panel>
@@ -74,57 +65,54 @@
         <xc:UIPanel
           panelColor="default"
           roundedCorner="false"
-          panelTitle="Panel"
-        >
+          panelTitle="Panel">
         </xc:UIPanel>
       </xp:panel>
       <xp:panel tagName="li">
         <xc:UIPanel
           panelColor="warning"
           roundedCorner="false"
-          panelTitle="Panel"
-        >
+          panelTitle="Panel">
         </xc:UIPanel>
       </xp:panel>
       <xp:panel tagName="li">
         <xc:UIPanel
           panelColor="info"
           roundedCorner="true"
-          panelTitle="Panel"
-        >efrghdefgh<xp:br></xp:br>mm,m,m,m,m
-        l,mkljkklklklkl
+          panelTitle="Panel">
+          efrghdefgh
+          <xp:br></xp:br>
+          mm,m,m,m,m l,mkljkklklklkl
         </xc:UIPanel>
       </xp:panel>
       <xp:panel tagName="li">
         <xc:UIPanel
           panelColor="default"
           roundedCorner="false"
-          panelTitle="Panel"
-        >
+          panelTitle="Panel">
         </xc:UIPanel>
       </xp:panel>
       <xp:panel tagName="li">
         <xc:UIPanel
           panelColor="default"
           roundedCorner="false"
-          panelTitle="Panel"
-        >aerhaerherh<xp:br></xp:br>
+          panelTitle="Panel">
+          aerhaerherh
+          <xp:br></xp:br>
         </xc:UIPanel>
       </xp:panel>
       <xp:panel tagName="li">
         <xc:UIPanel
           panelColor="success"
           roundedCorner="true"
-          panelTitle="Panel"
-        >
+          panelTitle="Panel">
         </xc:UIPanel>
       </xp:panel>
       <xp:panel tagName="li">
         <xc:UIPanel
           panelColor="default"
           roundedCorner="false"
-          panelTitle="Panel"
-        >
+          panelTitle="Panel">
         </xc:UIPanel>
       </xp:panel>
     </xc:UIGrid></xp:div>
