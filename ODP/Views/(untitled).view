@@ -1,18 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<note default='true' class='view' xmlns='http://www.lotus.com/dxl' version='9.0'
- maintenanceversion='1.5' replicaid='87257F5900622873'>
-<noteinfo noteid='122' unid='271920D3E86949FD87257EF4005D114A' sequence='4'>
-<created><datetime>20151105T095632,74-07</datetime></created>
-<modified><datetime>20160214T105222,25-07</datetime></modified>
-<revised><datetime>20160214T105222,24-07</datetime></revised>
-<lastaccessed><datetime>20160214T105222,24-07</datetime></lastaccessed>
-<addedtofile><datetime>20160214T105208,92-07</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Csaba Kiss/O=csaba</name><name>CN=test cadmin/O=home</name><name
->CN=Csaba Kiss/O=csaba</name><name>CN=Csaba Kiss/O=CSABA-PC</name></updatedby>
-<wassignedby><name>CN=Csaba Kiss/O=CSABA-PC</name></wassignedby>
-<item name='$TITLE'><text/></item>
-<item name='$Formula' summary='true'><formula compiled='true'>
-HAAFAA4ACgABAAQAJCQkJAQABAAAAAgAZgADAA==
-</formula></item>
-<item name='$FormulaClass'><text>1</text></item></note>
+<view xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.4'
+ replicaid='87257F5B004E2480' showinmenu='true' publicaccess='false' default='true'
+ noviewformat='true'>
+<noteinfo noteid='122' unid='B0F6BA5AF4769BA587257F5B004DF4C8' sequence='2'>
+<created><datetime>20160216T071129,36-07</datetime></created>
+<modified><datetime>20160216T071729,81-07</datetime></modified>
+<revised><datetime>20160216T071729,80-07</datetime></revised>
+<lastaccessed><datetime>20160216T071729,80-07</datetime></lastaccessed>
+<addedtofile><datetime>20160216T071331,61-07</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Csaba Kiss/O=csaba</name></updatedby>
+<wassignedby><name>CN=Csaba Kiss/O=csaba</name></wassignedby><code event='selection'><formula
+>SELECT @All</formula></code>
+<item name='$FormulaClass'><text>1</text></item></view>
 

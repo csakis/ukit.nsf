@@ -1,13 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <note default='true' class='icon' xmlns='http://www.lotus.com/dxl' version='9.0'
- maintenanceversion='1.5' replicaid='87257F59007F77C3'>
-<noteinfo noteid='11e' unid='0694400D4D750DEE87257F59007F77C6' sequence='9'>
-<created><datetime>20160214T161217,34-07</datetime></created>
-<modified><datetime>20160214T161752,63-07</datetime></modified>
-<revised><datetime>20160214T161752,62-07</datetime></revised>
-<lastaccessed><datetime>20160214T161752,62-07</datetime></lastaccessed>
-<addedtofile><datetime>20160214T161217,36-07</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Csaba Kiss/O=CSABA-PC</name></updatedby>
+ maintenanceversion='1.4' replicaid='87257F5B004E2480'>
+<noteinfo noteid='126' unid='9066723752BCB7D087257F5B004DF4C9' sequence='9'>
+<created><datetime>20160216T071129,37-07</datetime></created>
+<modified><datetime>20160216T071342,88-07</datetime></modified>
+<revised><datetime>20160216T071342,87-07</datetime></revised>
+<lastaccessed><datetime>20160216T071342,87-07</datetime></lastaccessed>
+<addedtofile><datetime>20160216T071331,63-07</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Csaba Kiss/O=csaba</name></updatedby>
+<wassignedby><name>CN=Csaba Kiss/O=csaba</name></wassignedby>
 <item name='IconBitmap' summary='true'>
 <rawitemdata type='6'>
 AiAgAQAA///////wD///4Af//8AD//4AAH/8AAA/+AAAH/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAA
@@ -24,6 +25,7 @@ EREdd3fRERER8AAAAAAA////Ed3dEf///wAAAAAAAAAAAPERER8AAAAAAAAAAAAAAAAP///wAAAA
 AAAAUEECICABAAD/////+A4DgA==
 </rawitemdata></item>
 <item name='$Flags'><text>J7</text></item>
+<item name='$FlagsNoRefresh'><text>rv</text></item>
 <item name='$Daos'><text>0</text></item>
 <item name='$TITLE'><text>UIKit</text></item></note>
 

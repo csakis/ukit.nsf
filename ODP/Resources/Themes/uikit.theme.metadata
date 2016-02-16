@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.5" replicaid="87257F59007F77C3" version="9.0" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="4aa" sequence="8" unid="DDE90D724D989BC887257F59007F7C1B">
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.4" replicaid="87257F5B004E2480" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="686" sequence="5" unid="DDE90D724D989BC887257F59007F7C1B">
 <created><datetime>20160214T161228,43-07</datetime></created>
-<modified><datetime>20160214T192651,56-07</datetime></modified>
-<revised><datetime>20160214T192651,55-07</datetime></revised>
-<lastaccessed><datetime>20160214T192651,55-07</datetime></lastaccessed>
-<addedtofile><datetime>20160214T161231,69-07</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Csaba Kiss/O=CSABA-PC</name></updatedby>
-<wassignedby><name>CN=Csaba Kiss/O=CSABA-PC</name></wassignedby>
+<modified><datetime>20160216T071338,52-07</datetime></modified>
+<revised><datetime>20160216T071238,40-07</datetime></revised>
+<lastaccessed><datetime>20160216T071338,51-07</datetime></lastaccessed>
+<addedtofile><datetime>20160216T071338,51-07</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Csaba Kiss/O=csaba</name></updatedby>
+<wassignedby><name>CN=Csaba Kiss/O=csaba</name></wassignedby>
 <item name="$TITLE"><text>uikit.theme</text></item>
 <item name="$Flags"><text>34567Cg~`</text></item>
 <item name="$DesignerVersion"><text>8.5.3</text></item>

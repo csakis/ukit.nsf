@@ -1,25 +1,25 @@
 <?xml version='1.0' encoding='utf-8'?>
-<view name='byNameSmall' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.5'
- replicaid='87257F59007F77C3' showinmenu='false' noreplace='true' publicaccess='false'
- designerversion='8.5.2' unreadmarks='none' onopengoto='lastopened' onrefresh='displayindicator'
+<view name='byNameSmall' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.4'
+ replicaid='87257F5B004E2480' showinmenu='false' noreplace='true' publicaccess='false'
+ designerversion='8.5.3' unreadmarks='none' onopengoto='lastopened' onrefresh='displayindicator'
  headers='beveled' opencollapsed='false' showresponsehierarchy='true' showmargin='true'
  shrinkrows='false' extendlastcolumn='false' showhierarchies='false' unreadcolor='black'
  rowlinecount='1' headerlinecount='1' rowspacing='1' bgcolor='white' totalscolor='black'
  headerbgcolor='white' boldunreadrows='false' evaluateactions='false' allownewdocuments='false'
  allowcustomizations='false' hidemarginborder='false' marginwidth='0px' marginbgcolor='white'
  uniquekeys='false' formatnoteid='1FCBBEB633D9FDB3852576480057A7DC'>
-<noteinfo noteid='a16' unid='E5D6AAACE9F8A2A887257F5A00197035' sequence='1'>
+<noteinfo noteid='672' unid='E5D6AAACE9F8A2A887257F5A00197035' sequence='3'>
 <created><datetime>20160214T213751,25-07</datetime></created>
-<modified><datetime>20160214T213751,33-07</datetime></modified>
-<revised><datetime>20160214T213751,32-07</datetime></revised>
-<lastaccessed><datetime>20160214T213751,32-07</datetime></lastaccessed>
-<addedtofile><datetime>20160214T213751,32-07</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=David Leedy/O=leedy</name><name>CN=Csaba Kiss/O=CSABA-PC</name></updatedby>
-<wassignedby><name>CN=Csaba Kiss/O=CSABA-PC</name></wassignedby><code event='selection'><formula
+<modified><datetime>20160216T071719,11-07</datetime></modified>
+<revised><datetime>20160216T071719,10-07</datetime></revised>
+<lastaccessed><datetime>20160216T071719,10-07</datetime></lastaccessed>
+<addedtofile><datetime>20160216T071338,41-07</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Csaba Kiss/O=csaba</name></updatedby>
+<wassignedby><name>CN=Csaba Kiss/O=csaba</name></wassignedby><code event='selection'><formula
 >SELECT form = "fUserName" &amp; state = "PA"</formula></code>
 <actionbar bgcolor='#ece9d8' bordercolor='black'>
-<actionbuttonstyle bgcolor='#ece9d8'/><font color='system'/><border style='solid'
- width='0px 0px 1px'/>
+<actionbuttonstyle bgcolor='#ece9d8'/><font size='9pt' color='system'/><border
+ style='solid' width='0px 0px 1px'/>
 <action title='Categori_ze' showinbar='false' systemcommand='categorize'/>
 <action title='_Edit Document' showinbar='false' systemcommand='edit'/>
 <action title='_Send Document' showinbar='false' systemcommand='send'/>

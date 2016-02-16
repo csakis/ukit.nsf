@@ -1,17 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.5" replicaid="87257F5900622873" version="9.0" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="3f6" sequence="8" unid="E942B2FA6230C2D887257EFD006A78BC">
+<?xml version="1.0" encoding="UTF-8"?><stylesheetresource charset="UTF-8" designerversion="8.5.3" maintenanceversion="1.4" name="panel.css" publicaccess="false" replicaid="87257F5B004E2480" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="6a2" sequence="3" unid="E942B2FA6230C2D887257EFD006A78BC">
 <created><datetime>20151114T122257,24-07</datetime></created>
-<modified><datetime>20160214T105219,63-07</datetime></modified>
-<revised><datetime>20160214T105219,62-07</datetime></revised>
-<lastaccessed><datetime>20160214T105219,62-07</datetime></lastaccessed>
-<addedtofile><datetime>20160214T105212,54-07</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Csaba Kiss/O=csaba</name><name>CN=Csaba Kiss/O=CSABA-PC</name></updatedby>
-<wassignedby><name>CN=Csaba Kiss/O=CSABA-PC</name></wassignedby>
-<item name="$MimeType" sign="true"><text>text/css</text></item>
-<item name="$Flags"><text>34C=Q</text></item>
-<item name="$MimeCharSet" sign="true"><text>UTF-8</text></item>
-
-
-<item name="$FileNames" sign="true"><text>main.css</text></item>
-<item name="$TITLE" sign="true"><text>panel.css</text></item>
-<item name="$DesignerVersion" sign="true"><text>8.5.3</text></item></note>
+<modified><datetime>20160216T071338,66-07</datetime></modified>
+<revised><datetime>20160216T071238,99-07</datetime></revised>
+<lastaccessed><datetime>20160216T071338,65-07</datetime></lastaccessed>
+<addedtofile><datetime>20160216T071338,65-07</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Csaba Kiss/O=csaba</name></updatedby></stylesheetresource>
