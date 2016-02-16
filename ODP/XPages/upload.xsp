@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view
+  xmlns:xp="http://www.ibm.com/xsp/core"
+  xmlns:xc="http://www.ibm.com/xsp/custom">
+  <xp:this.resources>
+    <xp:script
+      src="/upload.min.js"
+      clientSide="true">
+    </xp:script>
+    <xp:styleSheet href="/upload.gradient.min.css"></xp:styleSheet>
+    <xp:script
+      src="/upload.js"
+      clientSide="true">
+    </xp:script>
+  </xp:this.resources>
+  <xp:div
+    styleClass="uk-container uk-container-center"
+    style="background:#FFF;">
+  </xp:div>
+  <xc:UIGrid
+    isEvenGrid="false"
+    isResponsive="true"
+    sortable="true"
+    matchHeight="true"
+    rowBreak="true">
+    <xc:UIColumn
+      ukWidthLarge="1-4"
+      ukWidthMedium="1-3"
+      ukWidthSmall="1-2">
+      <xc:UIPanel
+        panelColor="info"
+        roundedCorner="true"
+        panelTitle="Upload">
+      <xp:div styleClass="uk-placeholder uk-text-center" id="uploadDrop">
+        <xp:panel
+          tagName="i"
+          styleClass="uk-icon-cloud-upload uk-icon-large uk-text-muted">
+        </xp:panel></xp:div>
+        <xp:div id="progressbar" styleClass="uk-progress uk-hidden">
+  <xp:div styleClass="uk-progress-bar" style="width: 0%;">0%
+  </xp:div></xp:div></xc:UIPanel>
+    </xc:UIColumn>
+  </xc:UIGrid>
+  
+  
+  <xp:scriptBlock id="scriptBlock1">
+    <xp:this.value><![CDATA[$uploadDrop = x$("#{id:uploadDrop}");]]></xp:this.value>
+  </xp:scriptBlock></xp:view>
