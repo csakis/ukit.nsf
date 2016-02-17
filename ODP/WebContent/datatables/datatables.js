@@ -39,7 +39,7 @@
 (function( factory ) {
 	"use strict";
 
-	if ( typeof define === 'function' && define.amd ) {
+	if ( typeof define === 'function' && false ) {
 		// AMD
 		define( ['jquery'], function ( $ ) {
 			return factory( $, window, document );

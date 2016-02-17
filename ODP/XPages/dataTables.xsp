@@ -124,47 +124,12 @@
   </xp:panel>
   <xp:scriptBlock id="scriptBlock1">
     <xp:this.value><![CDATA[var dataTableNames = x$("#{id:dataTableNames}").selector;
-var $computedField1 = x$("#{id:panel}");
-log("page is loaded");
-$(document).ready(function(){
-log("page is loaded2");
-$.ajax(
-		{
-		url: "dataTables.xsp/getPeople",
-		dataType: 'json',
-		success: function (data) {$computedField1.html(JSON.stringify(data));}
-		})
 
- log("id: " + dataTableNames);
- log("type: ", typeof($computedField1));
  $(dataTableNames).DataTable({
      });
-});
-log("ready3");
+
 ]]></xp:this.value>
   </xp:scriptBlock>
-  <xp:text
-    escape="true"
-    id="computedField1"
-  >
-  </xp:text>
-  <xp:eventHandler
-    event="onClientLoad"
-    submit="false"
-  >
-    <xp:this.script><![CDATA[log("page is loaded");
+  
 
-//$.ajax(
-//		{
-//		url: "dataTables.xsp/getPeople",
-//		dataType: 'json',
-//		success: function (data) {$computedField1.html(JSON.stringify(data));}
-//		})
-//
-// log("id: " + $dataTableNames);
-// $dataTableNames.DataTable({
-//     "ajax": "dataTables.xsp/getPeople"
-//       
-// });]]></xp:this.script>
-  </xp:eventHandler>
 </xp:view>
