@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.4" replicaid="87257F5B004E2480" version="9.0" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="9d2" sequence="8" unid="A03ECD492AA11EF087257F59007FD392">
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.5" replicaid="87257F59007F77C3" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="816" sequence="73" unid="A03ECD492AA11EF087257F59007FD392">
 <created><datetime>20160214T161612,34-07</datetime></created>
-<modified><datetime>20160216T071342,74-07</datetime></modified>
-<revised><datetime>20160216T071249,62-07</datetime></revised>
-<lastaccessed><datetime>20160216T071342,73-07</datetime></lastaccessed>
-<addedtofile><datetime>20160216T071342,73-07</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Csaba Kiss/O=csaba</name></updatedby>
-<wassignedby><name>CN=Csaba Kiss/O=csaba</name></wassignedby>
+<modified><datetime>20160217T012815,31-07</datetime></modified>
+<revised><datetime>20160217T012815,30-07</datetime></revised>
+<lastaccessed><datetime>20160217T012815,30-07</datetime></lastaccessed>
+<addedtofile><datetime>20160214T161612,44-07</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Csaba Kiss/O=CSABA-PC</name></updatedby>
+<wassignedby><name>CN=Csaba Kiss/O=CSABA-PC</name></wassignedby>
 <item name="$Flags"><text>gC~4;</text></item>
 <item name="$TITLE" sign="true"><text>UIPanel.xsp</text></item>
 
 
-
-
-<item name="$FileNames" sign="true"><text>UIPanel.xsp</text></item>
 <item name="$DesignerVersion"><text>8.5.3</text></item>
 
 
 
 
-</note>
+
+
+
+<item name="$FileNames" sign="true"><text>UIPanel.xsp</text></item></note>
