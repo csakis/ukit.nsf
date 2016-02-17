@@ -10,7 +10,7 @@
 (function(mod) {
   if (typeof exports == "object" && typeof module == "object") // CommonJS
     module.exports = mod();
-  else if (typeof define == "function" && define.amd) // AMD
+  else if (typeof define == "function" && false) // AMD
     return define([], mod);
   else // Plain browser env
     (this || window).CodeMirror = mod();

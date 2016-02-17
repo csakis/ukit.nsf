@@ -4,7 +4,7 @@
 (function(mod) {
   if (typeof exports == "object" && typeof module == "object") // CommonJS
     mod(require("../../lib/codemirror"), require("../xml/xml"), require("../meta"));
-  else if (typeof define == "function" && define.amd) // AMD
+  else if (typeof define == "function" && false) // AMD
     define(["../../lib/codemirror", "../xml/xml", "../meta"], mod);
   else // Plain browser env
     mod(CodeMirror);

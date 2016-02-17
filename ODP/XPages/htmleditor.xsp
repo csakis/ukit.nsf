@@ -6,23 +6,23 @@
    <xp:styleSheet href="uikit/css/codemirror.css"></xp:styleSheet>
   
     <xp:script
-      src="uikit/js/codemirror.js"
+      src="uikit/js/codemirror.min.js"
       clientSide="true">
     </xp:script>
     <xp:script
-      src="uikit/js/overlay.js"
+      src="uikit/js/overlay.min.js"
       clientSide="true">
     </xp:script>
     <xp:script
-      src="uikit/js/xml.js"
+      src="uikit/js/xml.min.js"
       clientSide="true">
     </xp:script>
    <xp:script
-      src="uikit/js/gfm.js"
+      src="uikit/js/gfm.min.js"
       clientSide="true">
     </xp:script>
     <xp:script
-      src="uikit/js/marked.js"
+      src="uikit/js/marked.min.js"
       clientSide="true">
     </xp:script>
     
@@ -42,19 +42,22 @@
       matchHeight="true"
       rowBreak="true">
       <xc:UIColumn
-        ukWidthLarge="1-3"
+        ukWidthLarge="1-2"
         ukWidthMedium="1-2"
-        ukWidthSmall="1-1">
+        ukWidthSmall="1-1"
+      >
         <xc:UIPanel
           panelColor="primary"
           roundedCorner="true"
-          panelTitle="Editor">
+          panelTitle="Editor"
+        >
           <xp:inputTextarea id="inputTextarea1">
             <xp:this.attrs>
               <xp:attr
                 minimized="true"
                 name="data-uk-htmleditor"
-                value=" ">
+                value=" "
+              >
               </xp:attr>
             </xp:this.attrs>
           </xp:inputTextarea>
