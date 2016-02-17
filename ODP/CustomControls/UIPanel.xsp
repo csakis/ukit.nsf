@@ -4,30 +4,29 @@
   <xp:this.resources>
     <xp:script
       src="accordion.min.js"
-      clientSide="true"></xp:script>
+      clientSide="true">
+    </xp:script>
     <xp:styleSheet
-      href="panel.css">
-    </xp:styleSheet>
-    <xp:styleSheet
-      href="accordion.gradient.min.css"
+      href="panel.gradient.css"
       loaded='${javascript:return (context.getProperty("xsp.theme").indexOf("gradient")!=-1)}'>
     </xp:styleSheet>
     <xp:styleSheet
-      href="accordion.almost-flat.min.css"
+      href="panel.almost-flat.css"
       loaded='${javascript:return (context.getProperty("xsp.theme").indexOf("flat")!=-1)}'>
     </xp:styleSheet>
     <xp:styleSheet
-      href="accordion.min.css"
+      href="panel.css"
       loaded='${javascript:return (context.getProperty("xsp.theme").indexOf("uikit")==0)}'>
     </xp:styleSheet>
     <xp:styleSheet
-      href="accordion-moreno-dark.css"
+      href="panel-moreno-dark.css"
       loaded='${javascript:return (context.getProperty("xsp.theme").indexOf("moreno-dark")==0)}'>
     </xp:styleSheet>
-     <xp:styleSheet
-      href="accordion.min.css"
+    <xp:styleSheet
+      href="panel.css"
       loaded='${javascript:return (context.getProperty("xsp.theme").indexOf("moreno-light")==0)}'>
     </xp:styleSheet>
+    <xp:styleSheet href="/panelBorder.css"></xp:styleSheet>
   </xp:this.resources>
   <xp:div> <!--accordionContainer-->
     <xp:this.attrs>
@@ -66,8 +65,7 @@ return accordionStyle;}]]>
     </xp:this.styleClass>
     <xp:panel
       tagName="h3"
-      id="accordionTitle"
-    >
+      id="accordionTitle">
       <xp:this.styleClass><![CDATA[${javascript:var accordionTitleStyle = "uk-accordion-title uk-sortable-handle";
 switch(compositeData.panelColor) {
 	case "default":
@@ -93,13 +91,13 @@ switch(compositeData.panelColor) {
 }
 return accordionTitleStyle;}]]></xp:this.styleClass>
       <xp:this.style><![CDATA[${javascript:var returnStyle = "font-weight: 400; ";
-returnStyle += (compositeData.panelColor === "default") ? "color: black; background: #EEE;": "color:white;";
+returnStyle += (compositeData.panelColor === "default") ? "color: white; background: #CCC;": "color:white;";
 return returnStyle; }]]></xp:this.style>
-      <xp:label value="${javascript:return compositeData.panelTitle;}"></xp:label>
+      <xp:label
+        value="${javascript:return compositeData.panelTitle;}"></xp:label>
       <xp:panel
         tagName="i"
-        styleClass="uk-icon-chevron-down uk-align-right"
-      >
+        styleClass="uk-icon-chevron-down uk-align-right">
       </xp:panel>
     </xp:panel><!-- accordion title -->
     <xp:div
